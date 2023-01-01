@@ -18,5 +18,24 @@ function scheduler() {
 
     var hour = moment().hour();;
 }
+
+if(k!=null && k<18){
+  if (k > hour) {
+    inputColumn.addClass("future");
+  } else if (k < hour) {
+    inputColumn.addClass("past");
+  } else {
+    inputColumn.addClass("present");
+  }
+  k++;
+}
+
+inputColumn.addClass("inputVal-"+i);
+var row = $("<div>").addClass("row");
+var saveBtnVal = "saveBtn-"+i ;
+var saveButton = $("<button>").addClass("btn btn-primary saveBtn").text("Save");
+saveButton.addClass(saveBtnVal);
+$(row).append(hourCol).append(inputColumn).append(saveButton);
+$(".container").append(row);
 }
  
