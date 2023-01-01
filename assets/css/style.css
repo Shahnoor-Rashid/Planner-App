@@ -82,3 +82,15 @@ input{
   transition: all .3s ease-in-out;
 }
 
+.clear-btn{
+  color: #77dd77;
+  background-color: transparent;
+  border: 1.5px#77dd77 solid;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+.clear-btn:hover{
+  color: white;
+  background-color: #77dd77;
+
+}
