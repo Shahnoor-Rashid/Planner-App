@@ -9,5 +9,14 @@ function scheduler() {
       "5 PM."];
     var k=9;
   }
+  
+  
+  for (i = 0; i < hours.length; i++) {
+      
+    var hourCol = $("<textarea>").text(hours[i]).attr("data-value" , i).addClass("hour");
+    var inputColumn = $("<input>").attr("placeholder", "Enter Your Notes here").attr("data-value" , i).addClass("time-block");
+
+    var hour = moment().hour();;
+}
 }
  
