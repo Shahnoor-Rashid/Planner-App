@@ -17,6 +17,7 @@ Please see below.
 ## Installation
 
 To access the website, please click the link below.
+[PlannerApp](https://shahnoor-rashid.github.io/Planner-App/)
 
 
 
