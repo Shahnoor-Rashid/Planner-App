@@ -22,7 +22,7 @@ To access the website, please click the link below.
 
 ## Usage
 
-To use the app, choose time, insert your notes in the box and then save it.
+To use the app, choose time, insert your notes in the box and then save it. If you need to clear the note, just click "Clear scheduler" button.
 
 ## Credits
 
